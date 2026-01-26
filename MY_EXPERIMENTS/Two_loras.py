@@ -10,7 +10,7 @@ if os.path.exists(token_file):
     with open(token_file, "r") as f:
         os.environ["HF_TOKEN"] = f.read().strip()
 if not os.environ.get("HF_TOKEN"):
-    raise ValueError("HF_TOKEN unset! Please ensure the local file 'HF_token.txt' contains the token.")
+    raise ValueError("HF_TOKEN unset! Please ensure you have a local file 'HF_token.txt' which contains the token.")
 print("✅ HF_TOKEN successfully loaded from local file.")
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
