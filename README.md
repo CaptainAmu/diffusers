@@ -53,6 +53,11 @@ With `conda` (maintained by the community):
 conda install -c conda-forge diffusers
 ```
 
+<span style='color:orange'> Or Create a virtual environment using `conda` </span> (This one I manually printed out using conda.)
+```sh
+conda env create -f environment.yaml
+```
+
 ### Apple Silicon (M1/M2) support
 
 Please refer to the [How to use Stable Diffusion in Apple Silicon](https://huggingface.co/docs/diffusers/optimization/mps) guide.
