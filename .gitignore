@@ -179,3 +179,6 @@ tags
 
 # wandb
 wandb
+
+MY_EXPERIMENTS/HF_token.txt
+MY_EXPERIMENTS/outputs/
